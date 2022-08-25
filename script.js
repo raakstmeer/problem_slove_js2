@@ -98,9 +98,7 @@ let trueArr = mixedArr.filter(function(el){
 
 console.log(trueArr);
 
-// short cut method...
-
-let trueArray = mixedArr.filter(Boolean);
+let trueArray = mixedArr.filter(Boolean); // short cut method...
 
 console.log(trueArray);
 
