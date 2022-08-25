@@ -88,6 +88,7 @@ const mixedArr = [
     NaN
 ];
 
+
 let trueArr = mixedArr.filter(function(el){
     if(el){
         return true;
@@ -103,4 +104,6 @@ let trueArray = mixedArr.filter(Boolean); // short cut method...
 console.log(trueArray);
 
 //____________________________________________________
+
+//  object থেকে কিভাবে falsy value খুজে বের করে বাদ দিতে পারি ?
 
