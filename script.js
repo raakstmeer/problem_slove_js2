@@ -88,3 +88,21 @@ const mixedArr = [
     NaN
 ];
 
+let trueArr = mixedArr.filter(function(el){
+    if(el){
+        return true;
+    }else{
+        return false;
+    }
+});
+
+console.log(trueArr);
+
+// short cut method...
+
+let trueArray = mixedArr.filter(Boolean);
+
+console.log(trueArray);
+
+//____________________________________________________
+
